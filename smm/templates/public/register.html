@@ -1,0 +1,71 @@
+{% extends "public/base.html" %}
+{% load static %}
+{% block title %}Login{% endblock %}
+{% block content %}
+
+<!--===== HERO AREA STARTS =======-->
+<div class="about-header-area" style="background-image: url({% static 'img/bg/header-bg5.png' %}); background-repeat: no-repeat; background-size: cover; background-position: center;">
+    <img src="assets/img/elements/elements1.png" alt="" class="elements1 aniamtion-key-1">
+    <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 m-auto">
+                <div class="cta-header-area heading9 text-center">
+                    <h1>Register Now</h1>
+                    <p class="arp_white" href="index.html">Home <i class="fa-solid fa-angle-right"></i> <span>Register</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--===== HERO AREA ENDS =======-->
+
+<!--===== CONTACT AREA STARTS =======-->
+<div class="contact-main-inner-area sp1">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-sm">
+                <div class="contact-form-area">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="input-area">
+                                <input type="text" placeholder="First Name">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="input-area">
+                                <input type="text" placeholder="Last Name">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="input-area">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-area">
+                                <input type="number" placeholder="Phone Number">
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-area">
+                              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"></input>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="input-area">
+                             <button type="submit" class="header-btn1">Register Now<span><i class="fa-solid fa-arrow-right"></i></span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--===== CONTACT AREA ENDS =======-->
+{% endblock %}
+<!--===== CTA AREA ENDS =======-->
